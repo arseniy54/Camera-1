@@ -120,3 +120,190 @@
 
     color: #000000;
 }
+
+/*Карточка товара*/
+
+.news-products{
+    position: relative;
+    width: 1365px;
+    height: 590px;
+    display: flex;
+    flex-direction: row;
+    left: 250px;
+}
+
+.section-title{
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    overflow: hidden;
+    color: #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;;
+}
+
+section{
+    padding: 50px 0;
+}
+
+.product-card{
+    position: relative;
+    width: 330px;
+    height: 590px;
+    left: 278px;
+    top: 150px;
+
+    background: #FFFFFF;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.product-cards{
+    position: relative;
+    margin: 0 40px;
+}
+
+.product-thumb{
+    margin: 30px 56px auto 57px ;
+}
+
+.title-product{
+    position: relative;
+    margin: 40px 26px auto 27px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.price-product{
+    position: relative;
+    margin: 10px 26px auto 27px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 45px;
+
+
+    color: #000000;
+}
+
+.description-product{
+    position: relative;
+    margin: 15px 26px auto 27px;
+    max-width: 230px;
+    word-wrap: break-word;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #9E9DA6;
+}
+
+.rating-mini {
+    margin: 40px 14px auto 27px;
+	display: inline-block;
+	font-size: 0;
+}
+.rating-mini span {
+	padding: 0;
+	font-size: 20px;
+	line-height: 1;
+	color: #9E9DA6;
+}
+.rating-mini > span:before {
+	content: '★';
+}
+.rating-mini > span.active {
+	color: #FB8200;
+}
+
+.score-product{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;  
+}
+
+.show-more{
+    position: relative;
+    width: 230px;
+    height: 68px;
+    margin: 200px auto auto 1165px;
+
+    background: linear-gradient(270deg, #3C8DE9 0%, #4745E9 100%);
+    border-radius: 7px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    overflow-x: hidden;
+
+    color: #FFFFFF;
+    border: none;
+}
+
+.button-buy-product{
+    position: relative;
+    margin: 0 auto auto 27px;
+    width: 115px;
+    height: 40px;
+    background: linear-gradient(270deg, #3C8DE9 0%, #4745E9 100%);
+    border-radius: 7px;
+    border: none;
+    overflow-x: hidden;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.button-buy-product .flare, .show-more .flare {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 25px;
+    transform: skewX(-45deg); 
+    animation: flareAnimation;
+    left: -150%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+    animation: flareAnimation 3.5s infinite linear; 
+}
+
+.show-more .flare{
+    width: 55px;
+}
+
+@keyframes flareAnimation {
+    0% {
+        left: -150%;
+    }
+    100% {
+        left: 150%;
+    }
+}
+
