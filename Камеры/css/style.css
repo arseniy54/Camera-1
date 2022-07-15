@@ -1009,3 +1009,184 @@ text-decoration-line: underline;
 
 color: #FFFFFF;
 }
+#news-block{
+    position: absolute;
+width: 550px;
+height: 860px;
+left: 319px;
+
+
+background: linear-gradient(180deg, #4744E9 0%, #3C8DE9 100%);
+border-radius: 16px;
+}
+#About-company{
+
+    position: absolute;
+    width: 373px;
+    height: 58px;
+    left: 100px;
+    top: 73px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+}
+#notebook-news{
+    position: absolute;
+width: 469px;
+height: 422px;
+left: 40px;
+top: 315px;
+
+background: url(pngfind.png);
+}
+#big-news-bool{
+    position: absolute;
+width: 389px;
+height: 256px;
+left: 169px;
+top: 604px;
+
+}
+#smol-news-bool{
+    position: absolute;
+width: 220px;
+height: 301px;
+left: 330px;
+top: 497px;
+
+}
+#news{
+    
+position: absolute;
+width: 1282px;
+height: 1053px;
+
+
+}
+#news-title{
+    
+position: absolute;
+width: 134px;
+height: 58px;
+left: 1039px;
+top: 50px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+
+color: #000000;
+}
+#news-body{
+    
+position: absolute;
+width: 557px;
+height: 364px;
+left: 1039px;
+top: 150px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 39px;
+
+color: #8D8E8E;
+}
+#text-see-all{
+    
+position: absolute;
+width: 127px;
+height: 19px;
+left: 1039px;
+top: 500px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+
+color: #89B5FF;
+}
+#see-all-img{
+    position: absolute;
+left: 1150px;
+
+top: 497px;
+
+
+
+
+}
+#camera-news-img{
+    position: absolute;
+width: 562px;
+height: 387px;
+left: 1038px;
+top: 540px;
+
+border-radius: 16px;
+}
+#sale-block{
+    width: 1580px;
+height: 451.93px;
+left: 170px;
+
+}
+#sale-text{
+    
+position: absolute;
+width: 660px;
+height: 86px;
+left: 250px;
+top: 66px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+
+color: #000000;
+}
+#email-input{
+
+    position: absolute;
+    width: 420px;
+    height: 68px;
+    left: 241px;
+    top: 211.53px;
+    
+    background: #FFFFFF;
+    border-radius: 7px;
+ 
+}
+#subscride{
+    position: absolute;
+width: 230px;
+height: 66px;
+left: 690px;
+top: 213px;
+}
+#sale-image-megafon{
+    position: absolute;
+    width: 361.73px;
+    height: 333.77px;
+    left: 1198.25px;
+    top: 124px;
+    
+
+}
