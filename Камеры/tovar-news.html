@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <section class="news-products">
+        <div>
+        <span id="seen-all">Смотреть всё</span>
+        <img src="img/vector.svg" alt="" id="vector">
+        </div>
+
+            <span class="section-title">Новинки</span>
+            <div class="product-card">
+                <div class="redirection">
+                    <div class="product-thumb">
+                        <img src="img/camera-tovar.svg" alt="">
+                    </div>
+                    <div class="product-details">
+                        <div class="title-product">
+                            <span>GreenVision - уличная камера видеонаблюдения GreenVision GV-047-GHD</span>
+                        </div>
+                        <div class="price-product">
+                            <span>4 950₽</span>
+                        </div>
+                    </div>
+                    <div  class="description-product"><span>Гибридная наружная камера 1080р</span></div>
+                </div>
+                    <div class="rating-mini">
+                        <span class="active"></span>	
+                        <span class="active"></span>    
+                        <span class="active"></span>  
+                        <span class="active"></span>    
+                        <span></span>
+                    </div>
+                <span class="score-product">4.05</span>
+                <img src="img/order-button.svg" alt="" id="order-button">
+            </div>
+        <div  class="product-cards"></div>
+        <div class="product-cards"></div>
+        <div class="product-cards"></div>
+    </section>
+    <button class="show-more">
+        Показать еще <span class="flare"></span>
+    </button>
+
+    <script>$(document).ready(function(){
+        $(".product-card").clone()
+            .appendTo(".product-cards")
+        })</script>
+    <script src="js/script.js"></script>
+    
+    </div>
+</body>
+</html>

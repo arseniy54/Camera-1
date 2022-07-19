@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Shop</title>
+  
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="html" href="index.html">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+      <header>
+        <div class="header">
+            <img id="logo" src="img/logo.svg">
+            <div class="search">
+                <input type="text" placeholder="Поиск среди товаров">
+                <div>
+                    <button id="search-btn">
+                        <img id=sear-img src="img/search.svg">
+                    </button>
+                </div>
+            </div>
+            <div class="icons">
+                <img id="users" src="img/user.svg">
+                <img id="like" src="img/like.svg">
+                <img id="basket" src="img/basket.svg"> 
+            </div>
+            <button class="but-categorii">
+                <img id="img-cat" src="img/categorii.svg">
+                <span id="but-text-cat">Категории товаров</span>
+            </button>
+            <div class="nav-menu-hd">
+                <a id="partners-hd" href="#">Партнёры</a>
+                <a id="garant-hd" href="#">Гарантия</a>
+                <a id="delivery-hd" href="#">Доставка</a> 
+                <a id="news-hd" href="#">Новости и акции</a>
+            </div>
+            <span id="tel">+7 (999) 999-99-99</span>
+        </div>
+    </header>
+    <div id="link-line">
+      <span style="width: 82px; height: 24px; font-family: 'Inter'; font-style: normal; font-weight: 700; font-size: 20px; line-height: 24px; color: #616161;">Главная</span>
+      <img style="position: absolute; left: 90px;" src="img/strela.svg" alt="">
+      <span style="position: absolute; left: 125px; width: 169px;
+      height: 24px; font-family: 'Inter'; font-style: normal; font-weight: 700; font-size: 20px; line-height: 24px; color: #616161;">Каталог товаров</span>
+      <img style="position: absolute; left: 295px;" src="img/strela.svg" alt="">
+      <span style="
+      position: absolute;
+      width: 285px;
+      height: 24px;
+      left: 330px;
+
+      
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      
+      color: #616161;
+      ">Системы видеонаблюдения</span>
+       <img style="position: absolute; left: 600px;" src="img/strela.svg" alt="">
+       <span style="
+       position: absolute;
+       width: 143px;
+       height: 24px;
+       left: 635px;
+  
+       
+       font-family: 'Inter';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 20px;
+       line-height: 24px;
+       
+       color: #616161;">Видеокамеры</span>
+              <img style="position: absolute; left: 778px;" src="img/strela.svg" alt="">
+              <span style="
+              position: absolute;
+              width: 85px;
+              height: 24px;
+              left: 813px;
+          
+              
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 24px;
+              
+              color: #616161;">HiWatch</span>
+      <img style="position: absolute; left: 905px;" src="img/strela.svg" alt="">
+      <span style="position: absolute;
+      width: 209px;
+      height: 24px;
+      left: 940px;
+   
+      
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      
+      color: #616161;">HiWatch DS-T201(B)</span>
+  </div>
+  <div id="card-product-image"> 
+    <img style="position: absolute; top: 487px; left: 225px;" src="img/left.svg" alt="">
+    <img style="position: absolute;width: 450px;height: 450px;left: 356px;top: 509px;border-radius: 16px;" src="img/camera.svg" alt="">
+    <img style="
+    position: absolute;
+left: 895px;
+top: 498px;" src="img/like.svg" alt="">
+  <img style="box-sizing: border-box;position: absolute;width: 115px;height: 115px;left: 241px;top: 999px;border: 1px solid #000000;border-radius: 16px;" src="img/camera.svg" alt="">
+  <img style="box-sizing: border-box;position: absolute;width: 115px;height: 115px;left: 381px;top: 999px;border: 1px solid #000000;border-radius: 16px;" src="img/camera.svg" alt="">
+  <img style="box-sizing: border-box;position: absolute;width: 115px;height: 115px;left: 521px;top: 999px;border: 1px solid #000000;border-radius: 16px;" src="img/camera.svg" alt="">
+  <img style="box-sizing: border-box;position: absolute;width: 115px;height: 115px;left: 661px;top: 999px;border: 1px solid #000000;border-radius: 16px;" src="img/camera.svg" alt="">
+  <img style="box-sizing: border-box;position: absolute;width: 115px;height: 115px;left: 801px;top: 999px;border: 1px solid #000000;border-radius: 16px;" src="img/camera.svg" alt="">
+<span style="
+position: absolute;
+width: 335px;
+height: 39px;
+left: 1026px;
+top: 485px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+
+color: #000000;">HiWatch DS-T201(B)</span>
+   <div style="left: 1035px;top: 548px; position:absolute;" class="rating-mini">
+    <span class="active"></span>	
+    <span class="active"></span>    
+    <span class="active"></span>  
+    <span class="active"></span>    
+    <span></span>
+</div>
+<span style="
+position: absolute;
+width: 42px;
+height: 24px;
+left: 1132px;
+top: 544px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;">4.05</span>
+<span style="
+position: absolute;
+width: 141px;
+height: 24px;
+left: 1035px;
+top: 588px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;">Объектив, мм</span>
+<div style="position: absolute;
+width: 55px;
+height: 20px;
+left: 1035px;
+top: 628px;
+
+background: linear-gradient(270deg, #3C8DE9 0%, #4745E9 100%);
+border-radius: 28px;">
+
+</div>
+<span style="
+position: absolute;
+width: 40px;
+height: 12px;
+left: 1043px;
+top: 632px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+
+color: #FFFFFF;
+
+">2.88 мм</span>
+<div style="box-sizing: border-box;
+
+position: absolute;
+width: 55px;
+height: 20px;
+left: 1100px;
+top: 628px;
+
+border: 1px solid #000000;
+border-radius: 28px;"></div>
+  </div>
+  <span style="
+  position: absolute;
+  width: 33px;
+  height: 12px;
+  left: 1111px;
+  top: 632px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  
+  color: #000000;">3.6 мм</span>
+  <span style="
+  position: absolute;
+  width: 550px;
+  height: 232px;
+  left: 1035px;
+  top: 692px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 29px;
+  
+  color: #000000;
+  
+  ">Внутренняя 2 Мп купольная камера HiWatch DS-T201(B) (2.8 mm) оснащена переключаемым видеовыходом TVI/AHD/CVI/CVBS. Ее можно подсоединить к видеорегистратору с поддержкой любого из этих стандартов. Видеоданные передаются по коаксиальному кабелю на расстояние до 500 метров, фактическая дистанция определяется качеством кабеля.</span>
+   <span style="
+   position: absolute;
+   width: 110px;
+   height: 45px;
+   left: 1035px;
+   top: 964px;
+   
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 139.52%;
+   /* identical to box height, or 45px */
+   
+   
+   color: #000000;
+   
+   ">2 102₽</span>
+   <button style="position: absolute;
+   width: 230px;
+   height: 68px;
+   left: 1035px;
+   top: 1029px;
+   
+   background: linear-gradient(270deg, #3C8DE9 0%, #4745E9 100%);
+   border-radius: 7px; border-color: #3C8DE9;"><span style="color: #FFFFFF;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;">В корзину</span></button>
+</div>
+<div style="position: absolute;
+width: 1312px;
+height: 881px;
+left: 305px;
+top: 1264px;">
+
+<span style="
+position: absolute;
+width: 361px;
+height: 29px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #000000;">Технические характеристики</span>
+<hr style="position: absolute;
+width: 381px;
+height: 3px;
+left: -10px;
+top: 39px;
+
+background: linear-gradient(270deg, #3C8DE9 0%, #4745E9 100%);
+border-radius: 7px;"></hr>
+<span style="
+position: absolute;
+width: 120px;
+height: 29px;
+left: 420px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #000000;">Описание</span>
+<span style="
+position: absolute;
+width: 120px;
+height: 29px;
+left: 640px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #000000;">Параметры</span>
+<span style="
+position: absolute;
+width: 120px;
+height: 29px;
+left: 860px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #000000;">Отзывы</span>
+<span style="
+position: absolute;
+width: 120px;
+height: 29px;
+left: 1080px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #000000;">Документация</span>
+<span style="
+position: absolute;
+width: 93px;
+height: 29px;
+
+top: 89px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #000000;">Камера</span>
+<span style="
+position: absolute;
+width: 87px;
+height: 24px;
+
+top: 176px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+">Матрица</span>
+<span style="
+
+position: absolute;
+width: 242px;
+height: 24px;
+right: 14px;
+top: 176px; 
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+
+color: #0D44A0;
+">1/2.7 CMOS матрица </span>
+<hr style="
+position: absolute;
+width: 1320px;
+height: 0px;
+
+top: 198.48px;
+
+border: 2px solid #DDDDDD;
+transform: rotate(-0.27deg);">
+<span style="
+position: absolute;
+width: 500px;
+height: 24px;
+
+top: 222px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+">1/2.7 CMOS Количество эффективных пикселей     </span>
+<span style="position: absolute;width: 242px;height: 24px;right: 16px;top: 222px;font-family: 'Inter';font-style: normal;font-weight: 500;font-size: 20px;line-height: 24px;text-align: right;
+
+color: #0D44A0;">1920x1080</span>
+<hr style="position: absolute;
+width: 1320px;
+height: 0px;
+
+top: 248px;
+
+border: 2px solid #DDDDDD;
+transform: rotate(-0.27deg);">
+<span style="
+position: absolute;
+width: 182px;
+height: 24px;
+
+top: 274px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;">Чувствительность</span>
+<span style="
+position: absolute;
+width: 395px;
+height: 24px;
+right: 10px;
+top: 274px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+
+color: #0D44A0;">0.01лк (F1.2, AGC вкл.),0лк с вкл. ИК</span>
+<hr style="position: absolute;
+width: 1320px;
+height: 0px;
+
+top: 300px;
+
+border: 2px solid #DDDDDD;
+transform: rotate(-0.27deg);">
+<span style="
+position: absolute;
+width: 217px;
+height: 24px;
+
+top:322px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;">Крепление объектива</span>
+<span style="position: absolute;
+width: 242px;
+height: 24px;
+right:8px;
+top: 322px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+
+color: #0D44A0;">M12</span>
+<hr style="position: absolute;
+width: 1320px;
+height: 0px;
+
+top: 347.73px;
+
+border: 2px solid #DDDDDD;
+transform: rotate(-0.27deg);">
+<span style="
+position: absolute;
+width: 96px;
+height: 24px;
+
+top: 369.73px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;">Объектив</span>
+<span style="
+position: absolute;
+width: 242px;
+height: 24px;
+right: 8px;
+top: 369.73px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+
+color: #0D44A0;">2.88 мм</span>
+<hr style="
+position: absolute;
+width: 1320px;
+
+top: 395px;
+
+border: 2px solid #DDDDDD;
+transform: rotate(-0.27deg);">
+<span style="
+position: absolute;
+width: 119px;
+height: 24px;
+
+top: 417px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;">Угол обзора</span>
+<span style="
+position: absolute;
+width: 242px;
+height: 24px;
+right: 8px;
+top: 417px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+
+color: #0D44A0;
+
+">103 (2.8 мм)</span>
+<hr style="
+position: absolute;
+width: 1320px;
+height: 0px;
+
+top: 443px;
+
+border: 2px solid #DDDDDD;
+transform: rotate(-0.27deg);">
+<span style="
+
+position: absolute;
+width: 285px;
+height: 24px;
+
+top: 465px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+">Регулировка угла установки:</span>
+<span style="
+position: absolute;
+width: 626px;
+height: 24px;
+right: 8px;
+top: 465px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+
+color: #0D44A0;
+">Поворот 0 - 350, Наклон 0 - 70, Вращение 0 - 350</span>
+<hr style="
+position: absolute;
+width: 1320px;
+height: 0px;
+top: 490px;
+
+border: 2px solid #DDDDDD;
+transform: rotate(-0.27deg);">
+<span style="
+position: absolute;
+width: 205px;
+height: 24px;
+
+top: 512px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;">Электронный затвор</span>
+<span style="
+position: absolute;
+width: 242px;
+height: 24px;
+right: 8px;
+top: 512px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+
+color: #0D44A0;
+">1/25c ~ 1/100,000c</span>
+<hr style="
+position: absolute;
+width: 1320px;
+height: 0px;
+
+top: 535px;
+
+border: 2px solid #DDDDDD;
+transform: rotate(-0.27deg);">
+<span style="
+position: absolute;
+width: 68px;
+height: 24px;
+
+top: 557px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;">Режим</span>
+<span style="
+position: absolute;
+width: 411px;
+height: 24px;
+right: 8px;
+top: 557px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+
+color: #0D44A0;
+
+">День/ночь Механический ИК-фильтр</span>
+<hr style="
+position: absolute;
+width: 1320px;
+height: 0px;
+
+top: 584px;
+
+border: 2px solid #DDDDDD;
+transform: rotate(-0.27deg);">
+<span style="
+position: absolute;
+width: 86px;
+height: 24px;
+top: 606px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;">Функции</span>
+<span style="
+position: absolute;
+width: 395px;
+height: 24px;
+top: 606px;
+right: 8px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+
+color: #0D44A0;">Яркость, резкость, зеркалирование</span>
+<hr style="position: absolute;
+width: 1320px;
+height: 0px;
+top: 628px;
+
+border: 2px solid #DDDDDD;
+transform: rotate(-0.27deg);">
+<span style="
+position: absolute;
+width: 80px;
+height: 24px;
+top: 650px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+">Частота</span>
+<span style="
+position: absolute;
+width: 242px;
+height: 24px;
+top: 650px;
+right: 8px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+
+color: #0D44A0;
+"
+color: #0D44A0;>1080P 25к/с</span>
+<hr style="position: absolute;
+width: 1320px;
+height: 0px;
+
+top: 675px;
+
+border: 2px solid #DDDDDD;
+transform: rotate(-0.27deg);">
+<span style="
+position: absolute;
+width: 154px;
+height: 24px;
+top: 697px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+">Синхронизация</span>
+<span style="
+position: absolute;
+width: 242px;
+height: 24px;
+top: 697px;
+right: 8px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+
+color: #0D44A0;">Внутреняя</span>
+<hr style="
+position: absolute;
+width: 1320px;
+height: 0px;
+top: 720px;
+
+border: 2px solid #DDDDDD;
+transform: rotate(-0.27deg);">
+<span style="
+position: absolute;
+width: 247px;
+height: 24px;
+top: 742px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+">Улучшение изображения</span>
+<span style="
+position: absolute;
+width: 242px;
+height: 24px;
+top: 742px;
+right: 8px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+
+color: #0D44A0;
+
+">DNR, DWDR, BLC</span>
+<hr style="
+position: absolute;
+width: 1320px;
+height: 0px;
+top: 770px;
+border: 2px solid #DDDDDD;
+transform: rotate(-0.27deg);">
+<span style="
+position: absolute;
+width: 137px;
+height: 24px;
+top: 792px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+">Видеовыходы</span>
+<span style="
+position: absolute;
+width: 1101px;
+height: 24px;
+top: 792px;
+right: 8px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+
+color: #0D44A0;
+">Переключаемые TVI / AHD / CVI / CVBS</span>
+<hr style="position: absolute;
+width: 1320px;
+height: 0px;
+top: 817px;
+
+border: 2px solid #DDDDDD;
+transform: rotate(-0.27deg);">
+<span style="
+position: absolute;
+width: 119px;
+height: 29px;
+
+top: 859px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #000000;">Основное</span>
+<span style="
+position: absolute;
+width: 237px;
+height: 24px;
+
+top: 914px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+">Дальность действия ИК</span>
+<span style="position: absolute;
+width: 242px;
+height: 24px;
+top: 914px;
+right: 8px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+
+color: #0D44A0;
+">До 20м</span>
+<hr style="
+position: absolute;
+width: 1320px;
+height: 0px;
+top: 937px;
+
+border: 2px solid #DDDDDD;
+transform: rotate(-0.27deg);">
+<span style="
+position: absolute;
+width: 91px;
+height: 24px;
+top: 959px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;">Smart ИК</span>
+<span style="
+position: absolute;
+width: 242px;
+height: 24px;
+top: 959px;
+right: 8px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+
+color: #0D44A0;">Есть</span>
+<hr style="position: absolute;
+width: 1320px;
+height: 0px;
+top: 980px;
+
+border: 2px solid #DDDDDD;
+transform: rotate(-0.27deg);">
+<span style="
+position: absolute;
+width: 169px;
+height: 24px;
+top: 1002px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;">Рабочие условия</span>
+<span style="
+position: absolute;
+width: 521px;
+height: 24px;
+top: 1002px;
+right: 8px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+
+color: #0D44A0;
+
+">Температура от -20 до 45, Влажность не более 90%</span>
+<hr style="
+position: absolute;
+width: 1320px;
+height: 0px;
+top: 1022px;
+border: 2px solid #DDDDDD;
+transform: rotate(-0.27deg);">
+<span style="
+position: absolute;
+width: 83px;
+height: 24px;
+top: 1044px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+">Питание</span>
+<span style="
+position: absolute;
+width: 242px;
+height: 24px;
+top: 1044px;
+right: 8px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+
+color: #0D44A0;
+">12B DC +- 15%</span>
+<hr style="
+position: absolute;
+width: 1320px;
+height: 0px;
+top: 1066px;
+
+border: 2px solid #DDDDDD;
+transform: rotate(-0.27deg);">
+<span style="
+position: absolute;
+width: 251px;
+height: 24px;
+top: 1088px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+">Потребляемая мощность</span>
+<span style="
+position: absolute;
+width: 242px;
+height: 24px;
+top: 1088px;
+right: 8px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+
+color: #0D44A0;
+">Макс. 4Вт</span>
+<hr style="position: absolute;
+width: 1320px;
+height: 0px;
+top: 1110px;
+
+border: 2px solid #DDDDDD;
+transform: rotate(-0.27deg);">
+<span style="
+position: absolute;
+width: 88px;
+height: 24px;
+top: 1132px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+">Размеры</span>
+<span style="
+position: absolute;
+width: 242px;
+height: 24px;
+top: 1132px;
+right: 8px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+
+color: #0D44A0;">Ф98 x 65.4 мм</span>
+<hr style="
+position: absolute;
+width: 1320px;
+height: 0px;
+
+top: 1154px;
+
+border: 2px solid #DDDDDD;
+transform: rotate(-0.27deg);">
+<span style="
+position: absolute;
+width: 36px;
+height: 24px;
+top: 1176px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+">Вес</span>
+<span style="
+position: absolute;
+width: 317px;
+height: 24px;
+top: 1176px;
+right: 8px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+
+color: #0D44A0;">240 гр.</span>
+<hr style="
+position: absolute;
+width: 1320px;
+height: 0px;
+top: 1198px;
+
+border: 2px solid #DDDDDD;
+transform: rotate(-0.27deg);">
+
+</div>
+<section style="top: 2480px; left: 80px;" class="news-products">
+    <div>
+    <span id="seen-all">Смотреть всё</span>
+    <img src="img/vector.svg" alt="" id="vector">
+    </div>
+
+        <span class="section-title">Похожие товары</span>
+        <div style="left: 230px"  class="product-card">
+            <div class="redirection">
+                <div class="product-thumb">
+                    <img src="img/camera-tovar.svg" alt="">
+                </div>
+                <div class="product-details">
+                    <div class="title-product">
+                        <span>GreenVision - уличная камера видеонаблюдения GreenVision GV-047-GHD</span>
+                    </div>
+                    <div class="price-product">
+                        <span>4 950₽</span>
+                    </div>
+                </div>
+                <div  class="description-product"><span>Гибридная наружная камера 1080р</span></div>
+            </div>
+                <div class="rating-mini">
+                    <span class="active"></span>	
+                    <span class="active"></span>    
+                    <span class="active"></span>  
+                    <span class="active"></span>    
+                    <span></span>
+                </div>
+            <span class="score-product">4.05</span>
+            <img src="img/order-button.svg" alt="" id="order-button">
+        </div>
+    <div class="product-cards"></div>
+    <div class="product-cards"></div>
+    <div class="product-cards"></div>
+</section>
+<button style="top: 2440px; left:0%;" class="show-more">
+    Показать еще <span class="flare"></span>
+</button>
+<div style="top: 3320px;" id="sale-block">
+    <span id="sale-text">Получайте информацию об акциях и скидках первым</span>
+    <input id="email-input" type="email">
+    <img src="img/subscride.svg" id="subscride" alt="">
+    <img src="img/sale-image-megafon.svg" id="sale-image-megafon" alt="">
+    
+</div>
+<div style="top: 3730px;" id="container-footer">
+    <img src="img/logo.svg" alt="" id="footer-logo">
+    <div id="instagram">
+        <img src="img/instagram-icon.svg" alt="" id="instagram-icon">
+        <span id="instagram-text">Instagram</span>
+    </div>
+    <div id="facebook">
+        <img src="img/facebook-icon.svg" alt="" id="facebook-icon">
+        <span id="facebook-text">Facebook</span>
+    </div>
+    <div id="telegram">
+        <img src="img/telegram-icon.svg" alt="" id="telegram-icon">
+        <span id="telegram-text">Telegram</span>
+    </div>
+    <div id="google">
+        <img src="img/google-icon.svg" alt="" id="google-icon">
+        <span id="google-text">support@its-project.su</span>
+    </div>
+<div id="footer-category">
+    <span id="footer-text-1">Категории</span>
+    <span id="footer-text-2">Доставка и оплата</span>
+    <span id="footer-text-3">Гарантии и возврат</span>
+    <span id="footer-text-4">О компании</span>
+    <span id="footer-text-5">Бренды</span>
+    <span id="footer-text-6">Новости</span>
+    <span id="footer-text-7">Новости</span>
+    <span id="footer-text-8">Новости</span>
+</div>
+<div id="footer-shoper">
+    <span id="shoper-text-1">Покупателям</span>
+    <span id="shoper-text-2">Доставка и оплата</span>
+    <span id="shoper-text-3">Гарантии и возврат</span>
+    <span id="shoper-text-4">О компании</span>
+    <span id="shoper-text-5">Бренды</span>
+    <span id="shoper-text-6">Новости</span>
+</div>
+    <div>
+    <img src="img/line.svg" alt="" id="line">
+    <span id="text-its">© 2022 “ITS-PROJECT</span>
+    <span id="footer-text">Политика конфиденциальности</span>
+    </div>
+    <span id="footer-number">+7 (999) 999-99-99</span>
+    <span id="footer-text-9">Заказать звонок</span>
+</div>
+  </div>
+  <script>$(document).ready(function(){
+    $(".product-card").clone()
+        .appendTo(".product-cards")
+    })</script>
+<script src="js/script.js"></script>
+</body>
+</html>
