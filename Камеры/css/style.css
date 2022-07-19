@@ -126,6 +126,7 @@
 .news-products{
     position: relative;
     width: 1365px;
+    top: 1087px;
     height: 590px;
     display: flex;
     flex-direction: row;
@@ -193,7 +194,9 @@ color: #89B5FF;
 
 .product-cards{
     position: relative;
+   
     height: 489px;
+    
 
 }
 
@@ -258,7 +261,7 @@ left: 20px;
 
 }
 .rating-mini {
-    margin: 40px 14px auto 27px;
+  
 	display: inline-block;
 	font-size: 0;
 }
@@ -300,7 +303,7 @@ left: 20px;
 
     background: linear-gradient(270deg, #3C8DE9 0%, #4745E9 100%);
     border-radius: 7px;
-
+top: 1050px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -363,7 +366,7 @@ left: 20px;
     height: 1350px; 
     left: 0;
   
-    top: -155%;
+    top: 74px;
 
 }
 
@@ -609,10 +612,12 @@ position: absolute;
 width: 1920px;
 height: 660px;
 left: 0px;
+top: 6800px;
 
 
 background: #2B2B2B;
 }
+
 #footer-logo{
     
 position: absolute;
@@ -1064,11 +1069,11 @@ top: 497px;
 
 }
 #news{
-    
+top: 4586px;
 position: absolute;
 width: 1282px;
 height: 1053px;
-
+left: -29px;
 
 }
 #news-title{
@@ -1141,17 +1146,21 @@ top: 540px;
 border-radius: 16px;
 }
 #sale-block{
-    width: 1580px;
-height: 451.93px;
-left: 170px;
 
+position: absolute;
+width: 1580px;
+height: 333px;
+left: 170px;
+top: 5600px;
+
+background: linear-gradient(258.8deg, rgba(255, 255, 255, 0.1) 0%, rgba(203, 202, 240, 0.4) 100%);
 }
 #sale-text{
     
 position: absolute;
 width: 660px;
 height: 86px;
-left: 250px;
+left: 80px;
 top: 66px;
 
 font-family: 'Inter';
@@ -1167,7 +1176,7 @@ color: #000000;
     position: absolute;
     width: 420px;
     height: 68px;
-    left: 241px;
+    left: 71px;
     top: 211.53px;
     
     background: #FFFFFF;
@@ -1178,7 +1187,7 @@ color: #000000;
     position: absolute;
 width: 230px;
 height: 66px;
-left: 690px;
+left: 520px;
 top: 213px;
 }
 #sale-image-megafon{
@@ -1186,7 +1195,426 @@ top: 213px;
     width: 361.73px;
     height: 333.77px;
     left: 1198.25px;
-    top: 124px;
+    top: 49px;
     
 
+}
+#news-blocs{
+    top: 5995px;  
+position: absolute;
+width: 1380px;
+height: 753px;
+left: 0px;
+
+}
+#news-text{
+    
+position: absolute;
+width: 947px;
+height: 58px;
+left: 270px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+
+color: #000000;
+}
+#disc{
+ 
+    box-sizing: border-box;
+
+position: absolute;
+width: 435px;
+height: 435px;
+left: 309px;
+top: 50px;
+
+}
+#news-text-vers{
+    
+position: absolute;
+width: 435px;
+height: 29px;
+left: 309px;
+top: 550px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #000000;
+}
+#news-text-description{
+    
+position: absolute;
+width: 380px;
+height: 100px;
+left: 309px;
+top: 590px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #8D8E8E;
+}
+#news-text-title-2{
+    
+position: absolute;
+width: 435px;
+height: 29px;
+left: 780px;
+top: 600px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #000000;
+}
+#news-text-description-2{
+    
+position: absolute;
+width: 400px;
+height: 96px;
+left: 780px;
+top: 650px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #8D8E8E;
+}
+#news-text-title-3{
+    
+position: absolute;
+width: 435px;
+height: 29px;
+left: 798px;
+top: 550px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+    
+    
+    color: #000000;
+    }
+#news-text-description-3{
+    
+    position: absolute;
+    width: 400px;
+    height: 96px;
+    left: 798px;
+    top: 600px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #8D8E8E;
+    }
+#image-product{
+    position: absolute;
+    width: 435px;
+    height: 480px;
+    left: 762px;
+    top: 50px;
+    
+}
+#image-product-div-2{
+    
+box-sizing: border-box;
+
+position: absolute;
+width: 435px;
+height: 435px;
+left: 436px;
+top: -15px;
+
+}
+
+#baner{
+    
+position: absolute;
+width: 1580px;
+height: 568px;
+left: 150px;
+top: 377px;
+
+background: linear-gradient(258.8deg, rgba(255, 255, 255, 0.1) 0%, rgba(171, 171, 226, 0.4) 100%);
+}
+#baner-text{
+    
+position: absolute;
+width: 947px;
+height: 154px;
+left: 250px;
+top: 80px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+
+color: #000000;
+}
+#button-baner{
+    position: absolute;
+width: 230px;
+height: 68px;
+left: 253px;
+top: 434px;
+
+background: linear-gradient(270deg, #3C8DE9 0%, #4745E9 100%);
+border-radius: 7px;
+}
+#button-baner-text{
+    
+position: absolute;
+width: 187px;
+height: 24px;
+left: 274px;
+top: 456px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+#camera-img-baner{
+    position: absolute;
+width: 546px;
+height: 410.17px;
+left: 1184px;
+top: 12px;
+}
+#allow-block{
+    position: absolute;
+width: 40px;
+height: 40px;
+left: 1320px;
+top: 502px;
+
+background: #89B5FF;
+border-radius: 7px;
+}
+#allow-block-2{
+    
+position: absolute;
+width: 40px;
+height: 40px;
+left: 1389px;
+top: 502px;
+
+background: #2264D2;
+border-radius: 7px;
+}
+#allow-baner{
+    
+
+   
+position: absolute;
+left: 15.06px;
+
+top: 7.89px;
+bottom: 89.71%;
+
+
+}
+#allow-baner-2{
+    position: absolute;
+    left: 15.06px;
+
+top: 7.89px;
+bottom: 89.71%;
+    
+   
+    transform: rotate(-180deg);
+    }
+    .catalog{
+        top: 1000px;
+    }
+#products{
+    
+position: absolute;
+width: 1420px;
+height: 1382px;
+left: 275px;
+top: 3128px;
+}
+#products-block-text{
+    
+position: absolute;
+width: 947px;
+height: 58px;
+left: 275px;
+top: 3128px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+
+color: #000000;
+}
+#product-block{
+    position: absolute;
+    width: 330px;
+    height: 540px;
+    left: 303px;
+   
+    margin: 150px 15px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    top: 6456px;
+
+
+}
+#tovar-camera-img{
+    
+position: absolute;
+width: 177px;
+height: 177px;
+left: 379px;
+
+top: 6620px;
+}
+#tovar-camera-description{
+    
+position: absolute;
+width: 237px;
+height: 87px;
+left: 27px;
+top: 237px;;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 29px;
+
+color: #000000;
+}
+#price-product{
+    
+position: absolute;
+width: 117px;
+height: 45px;
+left: 27px;
+top: 334px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 139.52%;
+/* identical to box height, or 45px */
+
+
+color: #000000;
+
+}
+#title-product{
+    
+position: absolute;
+width: 207px;
+height: 48px;
+left: 27px;
+top: 394px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #9E9DA6;
+}
+#product-button{
+    position: absolute;
+    width: 115px;
+    height: 40px;
+    left: 188px;
+    top: 479px;
+    
+    background: linear-gradient(270deg, #3C8DE9 0%, #4745E9 100%);
+    border-radius: 7px;
+}
+.product-cards-2{
+    position: relative;
+   
+    height: 489px;
+}
+#product-block-index{
+    position: absolute;
+width: 1420px;
+height: 1382px;
+left: 275px;
+top: 3128px;
+
+}
+#product-card-2{
+    position: relative;
+    width: 330px;
+    height: 540px;
+    left: 303px;
+    margin: 150px 15px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+#price{
+    
+position: absolute;
+width: 401px;
+height: 174px;
+left: 199px;
+top: 556px;
+}
+#link-line{
+    
+position: absolute;
+
+left: 200px;
+top: 383px;
+}
+#card-prosuct-image{
+    position: absolute;
+width: 1580px;
+height: 703px;
+left: 170px;
+top: 447px;
 }

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://bootstraptema.ru/plugins/2018/irs/ion.rangeSlider.css" />
+<link rel="stylesheet" href="https://bootstraptema.ru/plugins/2018/irs/ion.rangeSlider.skin.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://bootstraptema.ru/plugins/2018/irs/ion.rangeSlider.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://bootstraptema.ru/plugins/2015/jquery-ui/jquery-ui.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://bootstraptema.ru/plugins/2015/jquery-ui/jquery-ui.js"></script>
+</head>
+<body>
+    <div id="element">
+   
+        <div class="overflow"></div>
+        
+            <span style="
+            position: relative;
+            width: 357px;
+            height: 48px;
+            top: -1000px;
+            left: 7px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            
+            color: #000000;
+            ">Цена</span>
+            <div style="position: relative;top: -1050px;">
+            <span style="
+            position: absolute;
+            width: 31px;
+            height: 26px;
+            left: 29px;
+            top: 50px;
+            
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 19px;
+            line-height: 23px;
+            display: flex;
+            align-items: center;
+            
+            color: #6F6F6F;">От</span>
+             <span style="
+             position: absolute;
+             width: 31px;
+             height: 26px;
+             left: 214px;
+             top: 50px;
+             
+             font-family: 'Inter';
+             font-style: normal;
+             font-weight: 600;
+             font-size: 19px;
+             line-height: 23px;
+             display: flex;
+             align-items: center;
+             
+             color: #6F6F6F;">До</span>
+             <input id="min" style="box-sizing: border-box;
+
+             position: absolute;
+             width: 109px;
+             height: 29px;
+             left: 32px;
+             top:88px;
+             
+             background: #F9F9F9;
+             border: 1px solid rgba(0, 0, 0, 0.2);
+             border-radius: 2px;" type="text">
+             <input id="max"  style="box-sizing: border-box;
+
+             position: absolute;
+             width: 109px;
+             height: 29px;
+             left: 214px;
+             top:88px;
+             
+             background: #F9F9F9;
+             border: 1px solid rgba(0, 0, 0, 0.2);
+             border-radius: 2px;" type="text">
+             <hr style="position: absolute;
+             width: 31px;
+             height: 0px;
+             left: 162px;
+             top: 93px;
+             
+             border: 2px solid rgba(17, 44, 137, 0.4);">
+             <img style="
+             position: absolute;
+             width: 9.5px;
+             height: 19.5px;
+             left: 373px;
+             top: 19px;
+             
+            
+             transform: rotate(90deg);" src="img/strela.svg" alt="">
+              <div style="top: 130px;" class="col-md-12">
+
+                
+                <div class="container">
+                <div class="row">
+                
+                <div class="ui-slider9"></div> 
+                
+                </div>
+                </div>
+               
+            
+          </div>
+         
+             </div>
+           
+        </div>
+    
+    </div>
+    <style>
+        #element {
+  overflow-y: scroll;
+  background-color: #ffffff;
+  width: 408px;
+  height: 500px;
+}
+
+.overflow {
+  min-height: 1000px;
+}
+    #element::-webkit-scrollbar {
+        width:5px;
+    
+      }
+      
+      #element::-webkit-scrollbar-track {
+        -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+        background-color: #f9f9fd;
+        border-radius: 10px;
+      }
+      
+      #element::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background: linear-gradient(180deg, #00c6fb, #005bea);
+      }
+    </style>
+<script>
+ $(function(){
+ $('.ui-slider9').slider({
+ range: true,
+ min: 1000,
+ max: 1000000,
+ values: ['1000', '1000000'],
+ slide: function(event, ui) {
+ $('#min').val(ui.values[0]);
+ $('#max').val(ui.values[1]);
+ }
+ });
+});
+</script>
+</body>
+</html>
